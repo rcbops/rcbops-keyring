@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+apt-key add /usr/share/keyrings/rcbops-keyring.gpg
+
+#DEBHELPER#

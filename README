@@ -1,0 +1,16 @@
+This package contains public signing keys for the repos at http://ops.rcb.me
+
+Signing keys are:
+
+pub   2048R/F87CBDE0 2011-10-13
+uid                  RCB Build <rcb-deploy@lists.rackspace.com>
+sub   2048R/D443B7E6 2011-10-13
+
+To remove these keys from your trusted apt keyring, remove the
+package, or use apt-key del to delete the signing key.
+
+Pleae note that this signing key is used by automated processes on
+machines outside of our physical control, and may be less secure than
+a personal signing key.  Please ensure that this level of security is
+adequate for your organizaion.
+

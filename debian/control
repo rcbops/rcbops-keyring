@@ -1,0 +1,18 @@
+Source: rcbops-keyring
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Maintainer: RCB Builder <rcb-deploy@lists.rackspace.com>
+Bugs: mailto:rcb-deploy@lists.rackspace.com
+Homepage: http://github.com/rcbops
+Standards-Version: 3.9.1
+Vcs-Git: https://github.com/rcbops/rcb-keyring.git
+Vcs-Browser: http://github.com/rcbops/rcb-keyring.git
+
+Package: rcbops-keyring
+Architecture: all
+Depends: ${misc:Depends}, gnupg
+Description: GnuPG archive keys of the rcb.me repository 
+ This package contains the archive keys for the rcb.me OpenStack
+ repository.  When installed, it will install public signing keys so
+ apt signatures can be verified.
