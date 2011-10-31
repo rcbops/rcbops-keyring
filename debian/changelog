@@ -1,3 +1,9 @@
+rcbops-keyring (2011.10.31) unstable; urgency=low
+
+  * add RCB-Component field to control in prep for essex-e0 drop
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 31 Oct 2011 13:01:08 -0500
+
 rcbops-keyring (2011.10.27) unstable; urgency=low
 
   * Initial release.
